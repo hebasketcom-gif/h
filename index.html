@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elite Men's Salon — Luxury Haircut & Grooming Lounge</title>
+  <meta name="description" content="Experience bespoke haircuts, precision beard trims, artisan hair coloring, keratin treatments, and facial grooming at Elite Men's Salon." />
+  <meta name="keywords" content="Men's Salon, Luxury Barber, Haircut, Beard Trim, Hair Coloring, Keratin Treatment, Facial, Grooming" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Elite Men's Salon — Luxury Grooming For Modern Men" />
+  <meta property="og:description" content="Experience bespoke haircuts, beard styling, hair coloring, and luxury salon services." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1200&auto=format&fit=crop" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress-container">
+    <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+  </div>
+
+  <!-- Animated Preloader -->
+  <div id="preloader">
+    <div class="preloader-monogram">ELITE</div>
+    <div class="preloader-spinner"></div>
+    <div class="preloader-text">Luxury Grooming</div>
+  </div>
+
+  <!-- Sticky Transparent Header -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo" id="header-logo">
+        <svg class="logo-icon" viewBox="0 0 24 24">
+          <!-- Barber Scissors & Crown Monogram SVG -->
+          <path d="M6 3L18 21M18 3L6 21" stroke-linecap="round"/>
+          <circle cx="6" cy="3" r="1.5" fill="var(--color-gold)"/>
+          <circle cx="18" cy="3" r="1.5" fill="var(--color-gold)"/>
+          <path d="M12 2L14 5H10L12 2Z" fill="var(--color-gold)"/>
+        </svg>
+        <span>Elite <span class="logo-text-gold">Men's</span> Salon</span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active" id="nav-home">Home</a></li>
+          <li><a href="#services" class="nav-link" id="nav-services">Services</a></li>
+          <li><a href="#hair-colors" class="nav-link" id="nav-colors">Hair Colors</a></li>
+          <li><a href="#hairstyles" class="nav-link" id="nav-hairstyles">Hairstyles</a></li>
+          <li><a href="#beard-styles" class="nav-link" id="nav-beards">Beard Styles</a></li>
+          <li><a href="#pricing" class="nav-link" id="nav-pricing">Pricing</a></li>
+          <li><a href="#gallery" class="nav-link" id="nav-gallery">Gallery</a></li>
+          <li><a href="#reviews" class="nav-link" id="nav-reviews">Reviews</a></li>
+          <li><a href="#contact" class="nav-link" id="nav-contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-bg-container">
+        <img class="hero-bg-img" src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=2070&auto=format&fit=crop" alt="Luxury Men's Salon Interior" />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-badge reveal reveal-fade-down">
+          <span>★ The Pinnacle of Men's Grooming</span>
+        </div>
+
+        <h1 class="heading-xl hero-title reveal reveal-fade-up">
+          Luxury Grooming For <span class="gold-gradient-text">Modern Men</span>
+        </h1>
+
+        <p class="hero-description reveal reveal-fade-up delay-100">
+          Experience premium haircuts, beard styling, hair coloring, facials, keratin treatments, and complete grooming services in an atmosphere of uncompromised luxury.
+        </p>
+
+        <div class="hero-cta reveal reveal-fade-up delay-200">
+          <a href="#services" class="btn-gold ripple" id="hero-explore-btn">
+            Explore Services
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#pricing" class="btn-outline-gold ripple" id="hero-pricing-btn">
+            View Price List
+          </a>
+        </div>
+
+        <div class="hero-stats reveal reveal-fade-up delay-300">
+          <div class="stat-item">
+            <div class="stat-number"><span class="stat-counter" data-target="10000">0</span>+</div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number"><span class="stat-counter" data-target="15">0</span>+</div>
+            <div class="stat-label">Master Stylists</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">4.9★</div>
+            <div class="stat-label">Rating Score</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Hygienic Care</div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#services" class="scroll-down-btn" aria-label="Scroll down">
+        <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+        <span>Scroll</span>
+      </a>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="section-padding" id="services">
+      <div class="container">
+        <div class="section-header reveal reveal-fade-up">
+          <div class="section-subtitle">Tailored Perfection</div>
+          <h2 class="heading-lg">Bespoke Salon <span class="gold-gradient-text">Services</span></h2>
+          <p class="section-desc">Each treatment is engineered with artisanal precision, premium imported products, and personalized care.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- 1. Hair Cut -->
+          <div class="glass-card service-card reveal reveal-fade-up delay-100" id="service-hair-cut">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+            </div>
+            <h3 class="service-title">Hair Cut</h3>
+            <p class="service-desc">Precision haircut tailored to your head structure, profile, and personal aesthetic with styled wash.</p>
+            <span class="service-tag">Classical & Modern</span>
+          </div>
+
+          <!-- 2. Premium Hair Cut -->
+          <div class="glass-card service-card reveal reveal-fade-up delay-200" id="service-premium-cut">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <h3 class="service-title">Premium Hair Cut</h3>
+            <p class="service-desc">VIP styling session including consultation, deep scalp treatment, wash, hot towel finish, and custom styling.</p>
+            <span class="service-tag">Signature Experience</span>
+          </div>
+
+          <!-- 3. Beard Trim -->
+          <div class="glass-card service-card reveal reveal-fade-up delay-300" id="service-beard-trim">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 3v18M3 9l9-6 9 6M5 19l7 3 7-3"/></svg>
+            </div>
+            <h3 class="service-title">Beard Trim</h3>
+            <p class="service-desc">Sculpted beard grooming with razor line definition, length gradient blending, and organic beard oil treatment.</p>
+            <span class="service-tag">Precision Grooming</span>
+          </div>
+
+          <!-- 4. Royal Shave -->
+          <div class="glass-card service-card reveal reveal-fade-up delay-100" id="service-royal-shave">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3 class="service-title">Royal Shave</h3>
+            <p class="service-desc">Traditional straight-razor shave with steaming essential oils, rich lathering cream, and calming cold towel wrap.</p>
+            <span class="service-tag">Gentleman Classic</span>
+          </div>
+
+          <!-- 5. Hair Wash -->
+          <div class="glass-card service-card reveal reveal-fade-up delay-200" id="service-hair-wash">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+            </div>
+            <h3 class="service-title">Hair Wash</h3>
+            <p class="service-desc">Refreshing hair rinse and revitalizing shampoo treatment with invigorating scalp acupressure stimulation.</p>
+            <span class="service-tag">Cleanse & Restore</span>
+          </div>
+
+          <!-- 6. Hair Spa -->
+          <div class="glass-card service-card reveal reveal-fade-up delay-300" id="service-hair-spa">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="service-title">Hair Spa</h3>
+            <p class="service-desc">Intensive deep-conditioning hair spa treatment repairing damaged roots, eliminating dandruff, and restoring natural shine.</p>
+            <span class="service-tag">Nutrient Infusion</span>
+          </div>
+
+          <!-- 7. Hair Color -->
+          <div class="glass-card service-card reveal reveal-fade-up delay-100" id="service-hair-color">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z"/><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/></svg>
+            </div>
+            <h3 class="service-title">Hair Color</h3>
+            <p class="service-desc">Ammonia-free luxury hair tinting, global shades, and subtle highlights customized to match your skin tone.</p>
+            <span class="service-tag">Ammonia-Free Tints</span>
+          </div>
+
+          <!-- 8. Hair Smoothening -->
+          <div class="glass-card service-card reveal reveal-fade-up delay-200" id="service-hair-smoothening">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M8 2v20M16 2v20M12 6v12"/></svg>
+            </div>
+            <h3 class="service-title">Hair Smoothening</h3>
+            <p class="service-desc">Professional hair smoothening process taming unruly frizz, delivering silky hair texture and long-lasting control.</p>
+            <span class="service-tag">Silky & Frizz-Free</span>
+          </div>
+
+          <!-- 9. Keratin Treatment -->
+          <div class="glass-card service-card reveal reveal-fade-up delay-300" id="service-keratin">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <h3 class="service-title">Keratin Treatment</h3>
+            <p class="service-desc">Advanced protein-infused keratin therapy rebuilding hair structure, providing sleek smoothness and protection.</p>
+            <span class="service-tag">Deep Rebuilding</span>
+          </div>
+
+          <!-- 10. Hair Straightening -->
+          <div class="glass-card service-card reveal reveal-fade-up delay-100" id="service-straightening">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="5" y1="12" x2="19" y2="12"/><line x1="5" y1="6" x2="19" y2="6"/><line x1="5" y1="18" x2="19" y2="18"/></svg>
+            </div>
+            <h3 class="service-title">Hair Straightening</h3>
+            <p class="service-desc">Permanent hair straightening system delivering ultra-sleek, perfectly aligned hair with maximum gloss.</p>
+            <span class="service-tag">Permanent Sleek</span>
+          </div>
+
+          <!-- 11. D-Tan -->
+          <div class="glass-card service-card reveal reveal-fade-up delay-200" id="service-dtan">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            </div>
+            <h3 class="service-title">D-Tan Treatment</h3>
+            <p class="service-desc">Instant tan removal pack infused with milk enzymes and antioxidant extracts brightening sun-exposed skin.</p>
+            <span class="service-tag">Skin Brightening</span>
+          </div>
+
+          <!-- 12. Facial -->
+          <div class="glass-card service-card reveal reveal-fade-up delay-300" id="service-facial">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l8.72-8.72 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <h3 class="service-title">Luxury Facial</h3>
+            <p class="service-desc">Deep pore exfoliation, herbal steam therapy, charcoal detox mask, and anti-aging face massage.</p>
+            <span class="service-tag">Revitalizing Glow</span>
+          </div>
+
+          <!-- 13. Head Massage -->
+          <div class="glass-card service-card reveal reveal-fade-up delay-100" id="service-head-massage">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg>
+            </div>
+            <h3 class="service-title">Head Massage</h3>
+            <p class="service-desc">Stress-relieving Ayurvedic warm herb oil scalp massage improving blood circulation and tension relief.</p>
+            <span class="service-tag">Stress Relief</span>
+          </div>
+
+          <!-- 14. Scalp Treatment -->
+          <div class="glass-card service-card reveal reveal-fade-up delay-200" id="service-scalp-treatment">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="service-title">Scalp Treatment</h3>
+            <p class="service-desc">Therapeutic scalp therapy treating oil imbalance, dryness, itching, and promoting healthier hair growth.</p>
+            <span class="service-tag">Scalp Health</span>
+          </div>
+
+          <!-- 15. Groom Package -->
+          <div class="glass-card service-card reveal reveal-fade-up delay-300" id="service-groom-package">
+            <div class="service-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <h3 class="service-title">Complete Groom Package</h3>
+            <p class="service-desc">All-in-one head-to-toe makeover: Premium Cut, Beard Styling, Hair Spa, D-Tan Facial, and Scalp Massage.</p>
+            <span class="service-tag">All-Inclusive Luxury</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEN'S HAIR COLORS SECTION -->
+    <section class="section-padding" id="hair-colors" style="background: var(--color-charcoal);">
+      <div class="container">
+        <div class="section-header reveal reveal-fade-up">
+          <div class="section-subtitle">Artisan Shades</div>
+          <h2 class="heading-lg">Men's Hair <span class="gold-gradient-text">Colors</span></h2>
+          <p class="section-desc">Explore our 12 signature luxury hair colors engineered with ammonia-free pigments for vibrant, healthy hair.</p>
+        </div>
+
+        <div class="gallery-grid-12">
+          <!-- 1. Ash Grey -->
+          <div class="color-card reveal reveal-fade-up delay-100" data-lightbox data-img="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop" data-title="Ash Grey Hair Color">
+            <img class="color-card-img" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop" alt="Ash Grey Hair Color" loading="lazy" />
+            <div class="color-card-overlay">
+              <span class="color-card-badge">Cool Tone</span>
+              <h3 class="color-card-title">Ash Grey</h3>
+              <p class="color-card-desc">Sleek, edgy metallic tone designed for modern high-fashion statements.</p>
+            </div>
+          </div>
+
+          <!-- 2. Platinum Blonde -->
+          <div class="color-card reveal reveal-fade-up delay-200" data-lightbox data-img="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop" data-title="Platinum Blonde">
+            <img class="color-card-img" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop" alt="Platinum Blonde" loading="lazy" />
+            <div class="color-card-overlay">
+              <span class="color-card-badge">High Contrast</span>
+              <h3 class="color-card-title">Platinum Blonde</h3>
+              <p class="color-card-desc">Bold ice blonde shade with seamless tone neutralization.</p>
+            </div>
+          </div>
+
+          <!-- 3. Silver -->
+          <div class="color-card reveal reveal-fade-up delay-300" data-lightbox data-img="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" data-title="Silver Hair Color">
+            <img class="color-card-img" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" alt="Silver Hair Color" loading="lazy" />
+            <div class="color-card-overlay">
+              <span class="color-card-badge">Metallic Shine</span>
+              <h3 class="color-card-title">Silver</h3>
+              <p class="color-card-desc">Refined silver aesthetic with brilliant multidimensional reflection.</p>
+            </div>
+          </div>
+
+          <!-- 4. Golden Blonde -->
+          <div class="color-card reveal reveal-fade-up delay-100" data-lightbox data-img="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=800&auto=format&fit=crop" data-title="Golden Blonde">
+            <img class="color-card-img" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=800&auto=format&fit=crop" alt="Golden Blonde" loading="lazy" />
+            <div class="color-card-overlay">
+              <span class="color-card-badge">Warm Glow</span>
+              <h3 class="color-card-title">Golden Blonde</h3>
+              <p class="color-card-desc">Sun-kissed warm golden tones creating effortless vitality.</p>
+            </div>
+          </div>
+
+          <!-- 5. Chocolate Brown -->
+          <div class="color-card reveal reveal-fade-up delay-200" data-lightbox data-img="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=800&auto=format&fit=crop" data-title="Chocolate Brown">
+            <img class="color-card-img" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=800&auto=format&fit=crop" alt="Chocolate Brown" loading="lazy" />
+            <div class="color-card-overlay">
+              <span class="color-card-badge">Rich & Natural</span>
+              <h3 class="color-card-title">Chocolate Brown</h3>
+              <p class="color-card-desc">Deep mahogany cocoa tones providing timeless masculine elegance.</p>
+            </div>
+          </div>
+
+          <!-- 6. Caramel Brown -->
+          <div class="color-card reveal reveal-fade-up delay-300" data-lightbox data-img="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop" data-title="Caramel Brown">
+            <img class="color-card-img" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop" alt="Caramel Brown" loading="lazy" />
+            <div class="color-card-overlay">
+              <span class="color-card-badge">Subtle Dimension</span>
+              <h3 class="color-card-title">Caramel Brown</h3>
+              <p class="color-card-desc">Soft warm caramel highlights enhancing textured haircuts.</p>
+            </div>
+          </div>
+
+          <!-- 7. Burgundy -->
+          <div class="color-card reveal reveal-fade-up delay-100" data-lightbox data-img="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=800&auto=format&fit=crop" data-title="Burgundy Hair Color">
+            <img class="color-card-img" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=800&auto=format&fit=crop" alt="Burgundy Hair Color" loading="lazy" />
+            <div class="color-card-overlay">
+              <span class="color-card-badge">Deep Wine</span>
+              <h3 class="color-card-title">Burgundy</h3>
+              <p class="color-card-desc">Sophisticated deep wine red with subtle velvet undertones.</p>
+            </div>
+          </div>
+
+          <!-- 8. Copper -->
+          <div class="color-card reveal reveal-fade-up delay-200" data-lightbox data-img="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=800&auto=format&fit=crop" data-title="Copper Hair Color">
+            <img class="color-card-img" src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=800&auto=format&fit=crop" alt="Copper Hair Color" loading="lazy" />
+            <div class="color-card-overlay">
+              <span class="color-card-badge">Fiery Bronze</span>
+              <h3 class="color-card-title">Copper</h3>
+              <p class="color-card-desc">Vibrant copper bronze creating a striking dynamic profile.</p>
+            </div>
+          </div>
+
+          <!-- 9. Blue Highlights -->
+          <div class="color-card reveal reveal-fade-up delay-300" data-lightbox data-img="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop" data-title="Blue Highlights">
+            <img class="color-card-img" src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop" alt="Blue Highlights" loading="lazy" />
+            <div class="color-card-overlay">
+              <span class="color-card-badge">Avant-Garde</span>
+              <h3 class="color-card-title">Blue Highlights</h3>
+              <p class="color-card-desc">Electric midnight blue streak accents for creative styling.</p>
+            </div>
+          </div>
+
+          <!-- 10. Red Highlights -->
+          <div class="color-card reveal reveal-fade-up delay-100" data-lightbox data-img="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop" data-title="Red Highlights">
+            <img class="color-card-img" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop" alt="Red Highlights" loading="lazy" />
+            <div class="color-card-overlay">
+              <span class="color-card-badge">Bold Accent</span>
+              <h3 class="color-card-title">Red Highlights</h3>
+              <p class="color-card-desc">Crimson red weave highlights framing the face structure.</p>
+            </div>
+          </div>
+
+          <!-- 11. White Silver -->
+          <div class="color-card reveal reveal-fade-up delay-200" data-lightbox data-img="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?q=80&w=800&auto=format&fit=crop" data-title="White Silver">
+            <img class="color-card-img" src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?q=80&w=800&auto=format&fit=crop" alt="White Silver" loading="lazy" />
+            <div class="color-card-overlay">
+              <span class="color-card-badge">Pure Frost</span>
+              <h3 class="color-card-title">White Silver</h3>
+              <p class="color-card-desc">Pure icy white silver statement finish.</p>
+            </div>
+          </div>
+
+          <!-- 12. Matte Brown -->
+          <div class="color-card reveal reveal-fade-up delay-300" data-lightbox data-img="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?q=80&w=800&auto=format&fit=crop" data-title="Matte Brown">
+            <img class="color-card-img" src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?q=80&w=800&auto=format&fit=crop" alt="Matte Brown" loading="lazy" />
+            <div class="color-card-overlay">
+              <span class="color-card-badge">Subdued Earth</span>
+              <h3 class="color-card-title">Matte Brown</h3>
+              <p class="color-card-desc">Cool-toned neutral brown with zero unwanted warm reflections.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRENDING MEN'S HAIRSTYLES SECTION -->
+    <section class="section-padding" id="hairstyles">
+      <div class="container">
+        <div class="section-header reveal reveal-fade-up">
+          <div class="section-subtitle">Style Portfolio</div>
+          <h2 class="heading-lg">Trending Men's <span class="gold-gradient-text">Hairstyles</span></h2>
+          <p class="section-desc">20 iconic cuts handcrafted by our master barbers. Filter by style or tap any cut to view full resolution.</p>
+        </div>
+
+        <div class="filter-bar reveal reveal-fade-up">
+          <button class="filter-btn hairstyles-filter-btn active" data-filter="all">All Cuts</button>
+          <button class="filter-btn hairstyles-filter-btn" data-filter="fades">Fades</button>
+          <button class="filter-btn hairstyles-filter-btn" data-filter="short">Short Cuts</button>
+          <button class="filter-btn hairstyles-filter-btn" data-filter="classic">Classic</button>
+          <button class="filter-btn hairstyles-filter-btn" data-filter="modern">Modern & Long</button>
+        </div>
+
+        <div class="hairstyles-grid">
+          <!-- 1. Fade Cut -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="fades" data-lightbox data-img="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=800&auto=format&fit=crop" data-title="Fade Cut">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=800&auto=format&fit=crop" alt="Fade Cut" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Fade Cut</h3>
+              <span class="hairstyle-tag">Fade Category</span>
+            </div>
+          </div>
+
+          <!-- 2. Low Fade -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="fades" data-lightbox data-img="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=800&auto=format&fit=crop" data-title="Low Fade">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=800&auto=format&fit=crop" alt="Low Fade" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Low Fade</h3>
+              <span class="hairstyle-tag">Subtle Blend</span>
+            </div>
+          </div>
+
+          <!-- 3. Mid Fade -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="fades" data-lightbox data-img="https://images.unsplash.com/photo-1517832606589-715746203e51?q=80&w=800&auto=format&fit=crop" data-title="Mid Fade">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1517832606589-715746203e51?q=80&w=800&auto=format&fit=crop" alt="Mid Fade" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Mid Fade</h3>
+              <span class="hairstyle-tag">Balanced Blend</span>
+            </div>
+          </div>
+
+          <!-- 4. High Fade -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="fades" data-lightbox data-img="https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=800&auto=format&fit=crop" data-title="High Fade">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=800&auto=format&fit=crop" alt="High Fade" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">High Fade</h3>
+              <span class="hairstyle-tag">Sharp Contrast</span>
+            </div>
+          </div>
+
+          <!-- 5. Skin Fade -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="fades" data-lightbox data-img="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop" data-title="Skin Fade">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop" alt="Skin Fade" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Skin Fade</h3>
+              <span class="hairstyle-tag">Zero Razor Finish</span>
+            </div>
+          </div>
+
+          <!-- 6. Taper Fade -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="fades" data-lightbox data-img="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" data-title="Taper Fade">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" alt="Taper Fade" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Taper Fade</h3>
+              <span class="hairstyle-tag">Clean Edges</span>
+            </div>
+          </div>
+
+          <!-- 7. Crew Cut -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="short" data-lightbox data-img="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=800&auto=format&fit=crop" data-title="Crew Cut">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=800&auto=format&fit=crop" alt="Crew Cut" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Crew Cut</h3>
+              <span class="hairstyle-tag">Short Classic</span>
+            </div>
+          </div>
+
+          <!-- 8. Buzz Cut -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="short" data-lightbox data-img="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop" data-title="Buzz Cut">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop" alt="Buzz Cut" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Buzz Cut</h3>
+              <span class="hairstyle-tag">Minimalist Clean</span>
+            </div>
+          </div>
+
+          <!-- 9. French Crop -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="short" data-lightbox data-img="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=800&auto=format&fit=crop" data-title="French Crop">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=800&auto=format&fit=crop" alt="French Crop" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">French Crop</h3>
+              <span class="hairstyle-tag">Textured Fringe</span>
+            </div>
+          </div>
+
+          <!-- 10. Pompadour -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="classic" data-lightbox data-img="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=800&auto=format&fit=crop" data-title="Pompadour">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=800&auto=format&fit=crop" alt="Pompadour" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Pompadour</h3>
+              <span class="hairstyle-tag">Volume Classic</span>
+            </div>
+          </div>
+
+          <!-- 11. Slick Back -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="classic" data-lightbox data-img="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=800&auto=format&fit=crop" data-title="Slick Back">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=800&auto=format&fit=crop" alt="Slick Back" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Slick Back</h3>
+              <span class="hairstyle-tag">Refined Gentleman</span>
+            </div>
+          </div>
+
+          <!-- 12. Side Part -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="classic" data-lightbox data-img="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?q=80&w=800&auto=format&fit=crop" data-title="Side Part">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?q=80&w=800&auto=format&fit=crop" alt="Side Part" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Side Part</h3>
+              <span class="hairstyle-tag">Executive Style</span>
+            </div>
+          </div>
+
+          <!-- 13. Textured Crop -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="modern" data-lightbox data-img="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?q=80&w=800&auto=format&fit=crop" data-title="Textured Crop">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?q=80&w=800&auto=format&fit=crop" alt="Textured Crop" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Textured Crop</h3>
+              <span class="hairstyle-tag">Modern Messy</span>
+            </div>
+          </div>
+
+          <!-- 14. Quiff -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="modern" data-lightbox data-img="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop" data-title="Quiff">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop" alt="Quiff" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Quiff</h3>
+              <span class="hairstyle-tag">Elevated Front</span>
+            </div>
+          </div>
+
+          <!-- 15. Spiky Hair -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="modern" data-lightbox data-img="https://images.unsplash.com/photo-1480429370139-e0132c086e2a?q=80&w=800&auto=format&fit=crop" data-title="Spiky Hair">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1480429370139-e0132c086e2a?q=80&w=800&auto=format&fit=crop" alt="Spiky Hair" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Spiky Hair</h3>
+              <span class="hairstyle-tag">Dynamic Edgy</span>
+            </div>
+          </div>
+
+          <!-- 16. Undercut -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="modern" data-lightbox data-img="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop" data-title="Undercut">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop" alt="Undercut" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Undercut</h3>
+              <span class="hairstyle-tag">Disconnected Sides</span>
+            </div>
+          </div>
+
+          <!-- 17. Modern Mullet -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="modern" data-lightbox data-img="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=800&auto=format&fit=crop" data-title="Modern Mullet">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=800&auto=format&fit=crop" alt="Modern Mullet" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Modern Mullet</h3>
+              <span class="hairstyle-tag">Fashion Statement</span>
+            </div>
+          </div>
+
+          <!-- 18. Long Hair Style -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="modern" data-lightbox data-img="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop" data-title="Long Hair Style">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop" alt="Long Hair Style" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Long Hair Style</h3>
+              <span class="hairstyle-tag">Flowing Layers</span>
+            </div>
+          </div>
+
+          <!-- 19. Curly Hair Style -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="modern" data-lightbox data-img="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop" data-title="Curly Hair Style">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop" alt="Curly Hair Style" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Curly Hair Style</h3>
+              <span class="hairstyle-tag">Natural Curls</span>
+            </div>
+          </div>
+
+          <!-- 20. Korean Hairstyle -->
+          <div class="hairstyle-card reveal reveal-fade-up" data-category="modern" data-lightbox data-img="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" data-title="Korean Hairstyle">
+            <img class="hairstyle-img" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" alt="Korean Hairstyle" loading="lazy" />
+            <div class="zoom-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+            <div class="hairstyle-overlay">
+              <h3 class="hairstyle-name">Korean Hairstyle</h3>
+              <span class="hairstyle-tag">Two-Block Curtain</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRENDING BEARD STYLES SECTION -->
+    <section class="section-padding" id="beard-styles" style="background: var(--color-charcoal);">
+      <div class="container">
+        <div class="section-header reveal reveal-fade-up">
+          <div class="section-subtitle">Beard Architecture</div>
+          <h2 class="heading-lg">Trending Beard <span class="gold-gradient-text">Styles</span></h2>
+          <p class="section-desc">10 master beard sculpts designed for facial symmetry, razor sharpness, and effortless charisma.</p>
+        </div>
+
+        <div class="beard-grid">
+          <!-- 1. Full Beard -->
+          <div class="beard-card reveal reveal-fade-up delay-100" id="beard-full">
+            <div class="beard-img-box">
+              <img class="beard-img" src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=800&auto=format&fit=crop" alt="Full Beard" loading="lazy" />
+            </div>
+            <div class="beard-info">
+              <h3 class="beard-title">Full Beard</h3>
+              <p class="beard-desc">Voluminous beard growth with sharp cheeks and lined neck definition.</p>
+            </div>
+          </div>
+
+          <!-- 2. Short Beard -->
+          <div class="beard-card reveal reveal-fade-up delay-200" id="beard-short">
+            <div class="beard-img-box">
+              <img class="beard-img" src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=800&auto=format&fit=crop" alt="Short Beard" loading="lazy" />
+            </div>
+            <div class="beard-info">
+              <h3 class="beard-title">Short Beard</h3>
+              <p class="beard-desc">Neatly trimmed beard length offering a tidy, corporate-ready aesthetic.</p>
+            </div>
+          </div>
+
+          <!-- 3. Fade Beard -->
+          <div class="beard-card reveal reveal-fade-up delay-300" id="beard-fade">
+            <div class="beard-img-box">
+              <img class="beard-img" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" alt="Fade Beard" loading="lazy" />
+            </div>
+            <div class="beard-info">
+              <h3 class="beard-title">Fade Beard</h3>
+              <p class="beard-desc">Seamless gradient transition connecting sideburns down into facial hair.</p>
+            </div>
+          </div>
+
+          <!-- 4. Boxed Beard -->
+          <div class="beard-card reveal reveal-fade-up delay-100" id="beard-boxed">
+            <div class="beard-img-box">
+              <img class="beard-img" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop" alt="Boxed Beard" loading="lazy" />
+            </div>
+            <div class="beard-info">
+              <h3 class="beard-title">Boxed Beard</h3>
+              <p class="beard-desc">Square-contoured cheek and jawline edges highlighting strong jaw profiles.</p>
+            </div>
+          </div>
+
+          <!-- 5. Goatee -->
+          <div class="beard-card reveal reveal-fade-up delay-200" id="beard-goatee">
+            <div class="beard-img-box">
+              <img class="beard-img" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=800&auto=format&fit=crop" alt="Goatee Beard" loading="lazy" />
+            </div>
+            <div class="beard-info">
+              <h3 class="beard-title">Goatee</h3>
+              <p class="beard-desc">Classic chin beard accent paired with a cleanly connected mustache.</p>
+            </div>
+          </div>
+
+          <!-- 6. French Beard -->
+          <div class="beard-card reveal reveal-fade-up delay-300" id="beard-french">
+            <div class="beard-img-box">
+              <img class="beard-img" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop" alt="French Beard" loading="lazy" />
+            </div>
+            <div class="beard-info">
+              <h3 class="beard-title">French Beard</h3>
+              <p class="beard-desc">Sophisticated circular mustache and chin link with shaved cheeks.</p>
+            </div>
+          </div>
+
+          <!-- 7. Circle Beard -->
+          <div class="beard-card reveal reveal-fade-up delay-100" id="beard-circle">
+            <div class="beard-img-box">
+              <img class="beard-img" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=800&auto=format&fit=crop" alt="Circle Beard" loading="lazy" />
+            </div>
+            <div class="beard-info">
+              <h3 class="beard-title">Circle Beard</h3>
+              <p class="beard-desc">Neat rounded patch connecting mustache and chin patch smoothly.</p>
+            </div>
+          </div>
+
+          <!-- 8. Corporate Beard -->
+          <div class="beard-card reveal reveal-fade-up delay-200" id="beard-corporate">
+            <div class="beard-img-box">
+              <img class="beard-img" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=800&auto=format&fit=crop" alt="Corporate Beard" loading="lazy" />
+            </div>
+            <div class="beard-info">
+              <h3 class="beard-title">Corporate Beard</h3>
+              <p class="beard-desc">Strictly uniform 2-5mm trimmed length designed for executive boardrooms.</p>
+            </div>
+          </div>
+
+          <!-- 9. Stubble -->
+          <div class="beard-card reveal reveal-fade-up delay-300" id="beard-stubble">
+            <div class="beard-img-box">
+              <img class="beard-img" src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=800&auto=format&fit=crop" alt="Heavy Stubble" loading="lazy" />
+            </div>
+            <div class="beard-info">
+              <h3 class="beard-title">Heavy Stubble</h3>
+              <p class="beard-desc">Rugged 3-day growth with sculpted cheekline and neck boundary.</p>
+            </div>
+          </div>
+
+          <!-- 10. Viking Beard -->
+          <div class="beard-card reveal reveal-fade-up delay-100" id="beard-viking">
+            <div class="beard-img-box">
+              <img class="beard-img" src="https://images.unsplash.com/photo-1517832606589-715746203e51?q=80&w=800&auto=format&fit=crop" alt="Viking Beard" loading="lazy" />
+            </div>
+            <div class="beard-info">
+              <h3 class="beard-title">Viking Beard</h3>
+              <p class="beard-desc">Longer, full statement beard conditioned with deep essential oils.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICE LIST SECTION -->
+    <section class="section-padding" id="pricing">
+      <div class="container">
+        <div class="section-header reveal reveal-fade-up">
+          <div class="section-subtitle">Transparent Luxury</div>
+          <h2 class="heading-lg">Salon <span class="gold-gradient-text">Price List</span></h2>
+          <p class="section-desc">No hidden charges. All prices are in Indian Rupees (₨) and include complete hair prep & wash.</p>
+        </div>
+
+        <div class="pricing-wrapper">
+          <div class="pricing-grid">
+            <!-- Card 1: Hair & Beard Styling -->
+            <div class="pricing-category-card reveal reveal-fade-up delay-100" id="pricing-card-hair">
+              <h3 class="pricing-category-title">
+                Hair & Beard
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="6" cy="6" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><circle cx="6" cy="18" r="3"/></svg>
+              </h3>
+              <div class="pricing-list">
+                <div class="price-item">
+                  <span class="price-item-name">Hair Cut</span>
+                  <span class="price-item-dots"></span>
+                  <span class="price-item-value">₨299</span>
+                </div>
+                <div class="price-item">
+                  <span class="price-item-name">Premium Hair Cut</span>
+                  <span class="price-item-dots"></span>
+                  <span class="price-item-value">₨499</span>
+                </div>
+                <div class="price-item">
+                  <span class="price-item-name">Beard Trim</span>
+                  <span class="price-item-dots"></span>
+                  <span class="price-item-value">₨199</span>
+                </div>
+                <div class="price-item">
+                  <span class="price-item-name">Royal Shave</span>
+                  <span class="price-item-dots"></span>
+                  <span class="price-item-value">₨249</span>
+                </div>
+                <div class="price-item">
+                  <span class="price-item-name">Hair Wash</span>
+                  <span class="price-item-dots"></span>
+                  <span class="price-item-value">₨149</span>
+                </div>
+                <div class="price-item">
+                  <span class="price-item-name">Head Massage</span>
+                  <span class="price-item-dots"></span>
+                  <span class="price-item-value">₨299</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2: Treatments & Spa -->
+            <div class="pricing-category-card reveal reveal-fade-up delay-200" id="pricing-card-treatments">
+              <h3 class="pricing-category-title">
+                Treatments & Spa
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              </h3>
+              <div class="pricing-list">
+                <div class="price-item">
+                  <span class="price-item-name">Hair Spa</span>
+                  <span class="price-item-dots"></span>
+                  <span class="price-item-value">₨699</span>
+                </div>
+                <div class="price-item">
+                  <span class="price-item-name">Hair Color</span>
+                  <span class="price-item-dots"></span>
+                  <span class="price-item-value">₨999</span>
+                </div>
+                <div class="price-item">
+                  <span class="price-item-name">Hair Smoothening</span>
+                  <span class="price-item-dots"></span>
+                  <span class="price-item-value">₨3499</span>
+                </div>
+                <div class="price-item">
+                  <span class="price-item-name">Keratin Treatment</span>
+                  <span class="price-item-dots"></span>
+                  <span class="price-item-value">₨3999</span>
+                </div>
+                <div class="price-item">
+                  <span class="price-item-name">D-Tan</span>
+                  <span class="price-item-dots"></span>
+                  <span class="price-item-value">₨599</span>
+                </div>
+                <div class="price-item">
+                  <span class="price-item-name">Facial</span>
+                  <span class="price-item-dots"></span>
+                  <span class="price-item-value">₨799</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3: Signature Package -->
+            <div class="pricing-category-card price-highlight reveal reveal-fade-up delay-300" id="pricing-card-package">
+              <span class="popular-badge">BEST VALUE</span>
+              <h3 class="pricing-category-title">
+                VIP Package
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </h3>
+              <div class="pricing-list">
+                <div class="price-item">
+                  <span class="price-item-name" style="font-weight: 700; color: var(--color-gold-light);">Complete Groom Package</span>
+                  <span class="price-item-dots"></span>
+                  <span class="price-item-value" style="font-size: 1.4rem;">₨1499</span>
+                </div>
+              </div>
+              <p style="margin-top: 1.5rem; font-size: 0.85rem; color: var(--color-gray-muted); line-height: 1.6;">
+                Includes Premium Hair Cut + Sculpted Beard Trim + Nourishing Hair Spa + Refreshing D-Tan Facial + Relaxing Head Massage.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US SECTION -->
+    <section class="section-padding" id="why-choose-us" style="background: var(--color-charcoal);">
+      <div class="container">
+        <div class="section-header reveal reveal-fade-up">
+          <div class="section-subtitle">Excellence Defined</div>
+          <h2 class="heading-lg">Why Choose <span class="gold-gradient-text">Us</span></h2>
+          <p class="section-desc">Combining luxury aesthetic interiors with clinical hygiene standards and certified hair artisans.</p>
+        </div>
+
+        <div class="why-grid">
+          <!-- 1. Certified Stylists -->
+          <div class="why-card reveal reveal-fade-up delay-100" id="why-certified">
+            <div class="why-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+            </div>
+            <h3 class="why-title">✔ Certified Stylists</h3>
+            <p class="why-desc">Trained by international hair academies with over a decade of hands-on expertise.</p>
+          </div>
+
+          <!-- 2. Imported Products -->
+          <div class="why-card reveal reveal-fade-up delay-200" id="why-imported">
+            <div class="why-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20M2 12h20"/></svg>
+            </div>
+            <h3 class="why-title">✔ Imported Products</h3>
+            <p class="why-desc">Exclusively using world-class Italian, French, and Japanese hair formulations.</p>
+          </div>
+
+          <!-- 3. Luxury Interior -->
+          <div class="why-card reveal reveal-fade-up delay-300" id="why-interior">
+            <div class="why-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 21h18M3 7v14M21 7v14M6 7V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v3M9 11h6M9 15h6"/></svg>
+            </div>
+            <h3 class="why-title">✔ Luxury Interior</h3>
+            <p class="why-desc">Sleek matte leather reclining chairs, soft ambient lighting, and acoustic lounge soundscapes.</p>
+          </div>
+
+          <!-- 4. Modern Equipment -->
+          <div class="why-card reveal reveal-fade-up delay-100" id="why-equipment">
+            <div class="why-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <h3 class="why-title">✔ Modern Equipment</h3>
+            <p class="why-desc">High-speed Japanese clippers, steam infusers, and ergonomic razor implements.</p>
+          </div>
+
+          <!-- 5. Hygienic Environment -->
+          <div class="why-card reveal reveal-fade-up delay-200" id="why-hygienic">
+            <div class="why-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+            <h3 class="why-title">✔ Hygienic Environment</h3>
+            <p class="why-desc">UV-C sterilized tools, disposable single-use capes, and fresh towels for every single client.</p>
+          </div>
+
+          <!-- 6. Personalized Styling -->
+          <div class="why-card reveal reveal-fade-up delay-300" id="why-personalized">
+            <div class="why-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <h3 class="why-title">✔ Personalized Styling</h3>
+            <p class="why-desc">Detailed 1-on-1 consultation matching haircut to bone structure and hair density.</p>
+          </div>
+
+          <!-- 7. Affordable Luxury -->
+          <div class="why-card reveal reveal-fade-up delay-100" id="why-affordable">
+            <div class="why-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <h3 class="why-title">✔ Affordable Luxury</h3>
+            <p class="why-desc">Ultra-premium lounge experience offered at honest, transparent rates.</p>
+          </div>
+
+          <!-- 8. 10,000+ Happy Clients -->
+          <div class="why-card reveal reveal-fade-up delay-200" id="why-happy-clients">
+            <div class="why-icon-box">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="why-title">✔ 10,000+ Happy Clients</h3>
+            <p class="why-desc">Trusted by gentlemen, executives, and celebrities across the city.</p>
+          </div>
+        </div>
+
+        <!-- Before & After Interactive Slider -->
+        <div class="ba-section-wrapper reveal reveal-fade-up">
+          <div>
+            <div class="section-subtitle no-center">Real Transformation</div>
+            <h3 class="heading-md" style="margin-bottom: 1rem;">Interactive <span class="gold-gradient-text">Before & After</span></h3>
+            <p style="color: var(--color-gray-muted); line-height: 1.7; margin-bottom: 1.5rem;">
+              Drag the golden slider handle to witness the dramatic transformation achieved in a single haircut, beard sculpt, and skin treatment session at Elite Men's Salon.
+            </p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <span style="font-size: 0.85rem; color: var(--color-gold); font-weight: 600;">✓ Hair Cut & Fade</span>
+              <span style="font-size: 0.85rem; color: var(--color-gold); font-weight: 600;">✓ Beard Alignment</span>
+              <span style="font-size: 0.85rem; color: var(--color-gold); font-weight: 600;">✓ D-Tan Brightening</span>
+            </div>
+          </div>
+
+          <div class="ba-slider-container" id="baContainer">
+            <img class="ba-img-before" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1000&auto=format&fit=crop" alt="Before Haircut Transformation" />
+            <div class="ba-img-after-wrapper" id="baWrapper">
+              <img class="ba-img-after" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000&auto=format&fit=crop" alt="After Haircut Transformation" />
+              <span class="ba-badge after">AFTER</span>
+            </div>
+            <span class="ba-badge before">BEFORE</span>
+            <div class="ba-handle" id="baHandle">
+              <div class="ba-handle-button">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M18 8L22 12L18 16M6 8L2 12L6 16"/></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MASONRY GALLERY SECTION -->
+    <section class="section-padding" id="gallery">
+      <div class="container">
+        <div class="section-header reveal reveal-fade-up">
+          <div class="section-subtitle">Visual Experience</div>
+          <h2 class="heading-lg">Salon <span class="gold-gradient-text">Gallery</span></h2>
+          <p class="section-desc">Explore our masonry portfolio showcasing precision cuts, beard sculpts, salon interior aesthetics, and transformations.</p>
+        </div>
+
+        <div class="filter-bar reveal reveal-fade-up">
+          <button class="filter-btn gallery-filter-btn active" data-filter="all">All Photos</button>
+          <button class="filter-btn gallery-filter-btn" data-filter="haircut">Haircuts</button>
+          <button class="filter-btn gallery-filter-btn" data-filter="beard">Beard Styling</button>
+          <button class="filter-btn gallery-filter-btn" data-filter="color">Hair Color</button>
+          <button class="filter-btn gallery-filter-btn" data-filter="interior">Interior</button>
+        </div>
+
+        <div class="masonry-grid">
+          <!-- 1. Haircut -->
+          <div class="gallery-item tall reveal reveal-fade-up" data-category="haircut" data-lightbox data-img="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=1000&auto=format&fit=crop" data-title="Precision Razor Fade Cut">
+            <img class="gallery-img" src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=1000&auto=format&fit=crop" alt="Precision Haircut" loading="lazy" />
+            <div class="gallery-overlay">
+              <h3 class="gallery-title">Precision Razor Fade</h3>
+              <span class="gallery-category">Haircut</span>
+            </div>
+          </div>
+
+          <!-- 2. Salon Interior -->
+          <div class="gallery-item wide reveal reveal-fade-up" data-category="interior" data-lightbox data-img="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1000&auto=format&fit=crop" data-title="Luxury Salon Lounge">
+            <img class="gallery-img" src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1000&auto=format&fit=crop" alt="Luxury Lounge Interior" loading="lazy" />
+            <div class="gallery-overlay">
+              <h3 class="gallery-title">Luxury Barber Lounge</h3>
+              <span class="gallery-category">Salon Interior</span>
+            </div>
+          </div>
+
+          <!-- 3. Beard Styling -->
+          <div class="gallery-item reveal reveal-fade-up" data-category="beard" data-lightbox data-img="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=1000&auto=format&fit=crop" data-title="Beard Sculpting & Lining">
+            <img class="gallery-img" src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=1000&auto=format&fit=crop" alt="Beard Sculpting" loading="lazy" />
+            <div class="gallery-overlay">
+              <h3 class="gallery-title">Beard Sculpting</h3>
+              <span class="gallery-category">Beard Styling</span>
+            </div>
+          </div>
+
+          <!-- 4. Hair Color -->
+          <div class="gallery-item reveal reveal-fade-up" data-category="color" data-lightbox data-img="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1000&auto=format&fit=crop" data-title="Ash Silver Color Toning">
+            <img class="gallery-img" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1000&auto=format&fit=crop" alt="Ash Silver Hair Color" loading="lazy" />
+            <div class="gallery-overlay">
+              <h3 class="gallery-title">Ash Silver Tint</h3>
+              <span class="gallery-category">Hair Color</span>
+            </div>
+          </div>
+
+          <!-- 5. Grooming -->
+          <div class="gallery-item tall reveal reveal-fade-up" data-category="haircut" data-lightbox data-img="https://images.unsplash.com/photo-1517832606589-715746203e51?q=80&w=1000&auto=format&fit=crop" data-title="Executive Pompadour Haircut">
+            <img class="gallery-img" src="https://images.unsplash.com/photo-1517832606589-715746203e51?q=80&w=1000&auto=format&fit=crop" alt="Executive Pompadour" loading="lazy" />
+            <div class="gallery-overlay">
+              <h3 class="gallery-title">Executive Pompadour</h3>
+              <span class="gallery-category">Haircut</span>
+            </div>
+          </div>
+
+          <!-- 6. Royal Shave -->
+          <div class="gallery-item reveal reveal-fade-up" data-category="beard" data-lightbox data-img="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop" data-title="Royal Hot Towel Straight Razor Shave">
+            <img class="gallery-img" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop" alt="Royal Shave" loading="lazy" />
+            <div class="gallery-overlay">
+              <h3 class="gallery-title">Royal Hot Towel Shave</h3>
+              <span class="gallery-category">Beard Styling</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CUSTOMER REVIEWS SECTION -->
+    <section class="section-padding" id="reviews" style="background: var(--color-charcoal);">
+      <div class="container">
+        <div class="section-header reveal reveal-fade-up">
+          <div class="section-subtitle">Client Testimonials</div>
+          <h2 class="heading-lg">Words From Our <span class="gold-gradient-text">Patrons</span></h2>
+          <p class="section-desc">Discover why gentlemen, business leaders, and influencers trust Elite Men's Salon for their signature look.</p>
+        </div>
+
+        <div class="reviews-carousel reveal reveal-fade-up" id="reviewsCarousel">
+          <div class="reviews-track" id="reviewsTrack">
+            <!-- Review 1 -->
+            <div class="review-card">
+              <div class="review-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <p class="review-text">
+                "Elite Men's Salon is hands down the finest grooming experience in the city. The attention to detail during my Premium Hair Cut and Beard Sculpt was unbelievable. The ambience feels like a private luxury club."
+              </p>
+              <div class="review-author">
+                <img class="review-avatar" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" alt="Vikram Malhotra" />
+                <div>
+                  <div class="review-name">Vikram Malhotra</div>
+                  <div class="review-role">Managing Director, Tech Ventures</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="review-card">
+              <div class="review-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <p class="review-text">
+                "I tried the Ash Grey Hair Color and Keratin Treatment. My hair feels incredibly soft and healthier than ever. The team here is super polite, professional, and hygiene standards are top-notch!"
+              </p>
+              <div class="review-author">
+                <img class="review-avatar" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop" alt="Rohan Singhania" />
+                <div>
+                  <div class="review-name">Rohan Singhania</div>
+                  <div class="review-role">Creative Director & Stylist</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="review-card">
+              <div class="review-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <p class="review-text">
+                "The Complete Groom Package is worth every rupee. From the head massage to the facial and razor fade, I walked out feeling refreshed, confident, and completely transformed."
+              </p>
+              <div class="review-author">
+                <img class="review-avatar" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=200&auto=format&fit=crop" alt="Arjun Kapoor" />
+                <div>
+                  <div class="review-name">Arjun Kapoor</div>
+                  <div class="review-role">Fitness Entrepreneur</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section-padding" id="contact">
+      <div class="container">
+        <div class="section-header reveal reveal-fade-up">
+          <div class="section-subtitle">Visit Our Lounge</div>
+          <h2 class="heading-lg">Location & <span class="gold-gradient-text">Contact</span></h2>
+          <p class="section-desc">Located in the heart of the luxury shopping district. Drop by or reach out directly.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Info Card -->
+          <div class="contact-info-card reveal reveal-fade-up delay-100" id="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <div class="contact-label">Salon Address</div>
+                <div class="contact-value">
+                  Suite 101, Elite Boulevard, Bandra West,<br />
+                  Mumbai, Maharashtra — 400050
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <div class="contact-label">Phone Number</div>
+                <div class="contact-value"><a href="tel:+919876543210">+91 98765 43210</a> / <a href="tel:02288887777">022 8888 7777</a></div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <div class="contact-label">Email Address</div>
+                <div class="contact-value"><a href="mailto:concierge@elitemenssalon.com">concierge@elitemenssalon.com</a></div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <div class="contact-label">Opening Hours</div>
+                <div class="contact-value">Monday – Sunday: 9:00 AM – 9:00 PM</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Embedded Map -->
+          <div class="map-wrapper reveal reveal-fade-up delay-200" id="contact-map">
+            <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.498363715878!2d72.8290234758988!3d19.053874352355415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c913ebc3f59d%3A0xe7a505b822d51717!2sBandra%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Elite Men's Salon Location Map"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo footer-logo">
+            <svg class="logo-icon" viewBox="0 0 24 24">
+              <path d="M6 3L18 21M18 3L6 21" stroke-linecap="round"/>
+              <circle cx="6" cy="3" r="1.5" fill="var(--color-gold)"/>
+              <circle cx="18" cy="3" r="1.5" fill="var(--color-gold)"/>
+              <path d="M12 2L14 5H10L12 2Z" fill="var(--color-gold)"/>
+            </svg>
+            <span>Elite <span class="logo-text-gold">Men's</span> Salon</span>
+          </a>
+          <p class="footer-desc">
+            Redefining men's grooming with bespoke haircuts, artisanal beard sculpts, luxury hair coloring, and clinical hygiene in an ambient environment.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#services" class="footer-link">Services</a></li>
+            <li><a href="#pricing" class="footer-link">Pricing</a></li>
+            <li><a href="#gallery" class="footer-link">Gallery</a></li>
+            <li><a href="#reviews" class="footer-link">Reviews</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Grooming Styles</h4>
+          <ul class="footer-links">
+            <li><a href="#hairstyles" class="footer-link">Hairstyles</a></li>
+            <li><a href="#beard-styles" class="footer-link">Beard Styles</a></li>
+            <li><a href="#hair-colors" class="footer-link">Hair Colors</a></li>
+            <li><a href="#services" class="footer-link">Keratin & Spa</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Get In Touch</h4>
+          <ul class="footer-links">
+            <li style="color: var(--color-gray-muted);">Phone: +91 98765 43210</li>
+            <li style="color: var(--color-gray-muted);">Email: concierge@elitemenssalon.com</li>
+            <li style="color: var(--color-gray-muted);">Address: Bandra West, Mumbai</li>
+            <li style="color: var(--color-gold); margin-top: 0.5rem; font-weight: 500;">Mon - Sun: 9 AM - 9 PM</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 ELITE MEN'S SALON. All Rights Reserved.</div>
+        <div>Designed for Uncompromising Gentlemen.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll To Top Button -->
+  <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close modal">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <img class="lightbox-img" id="lightboxImg" src="" alt="Enlarged View" />
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="/script.js"></script>
+</body>
+</html>
