@@ -1,6 +1,0 @@
-{
-  "name": "LUXE BEAUTY SALON",
-  "description": "Luxury Women's Hair Salon Website with premium hair styling, hair coloring, treatments, and pricing.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
