@@ -1,6 +1,0 @@
-{
-  "name": "Elite Men's Salon",
-  "description": "A luxury, modern single-page Men's Hair Salon & Grooming website featuring premium haircuts, beard styling, hair coloring, and price list.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
