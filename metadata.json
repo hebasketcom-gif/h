@@ -1,0 +1,6 @@
+{
+  "name": "Dr. Bharath Patil - Specialist Orthopaedic Surgeon",
+  "description": "Official website of Dr. Bharath Patil, Specialist Orthopaedic Surgeon at RAK Hospital, United Arab Emirates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
